@@ -1,0 +1,211 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	/*font-size: 100%;
+	font: inherit;*/
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}  
+
+header {
+	margin: 20px;
+	padding: 10px;
+}
+
+.logo {
+	margin-bottom: 30px;
+	font-family: Helvetica;
+}
+
+.mynav {
+	background-color: #DAB8B7;
+	font-weight: bold;
+}
+
+.form-control {
+	background-color: #FBF7EE;
+}
+
+/* Dashboard Page Styling */
+.dashcontainer {
+	margin: 20px;
+	padding: 10px;
+	font-family: Helvetica;
+	background-color: #DAB8B7;
+	border: solid 2px black;
+}
+
+.card {
+	margin: 15px;
+	background-color: #FBF7EE;
+	border: solid 1px black;
+	text-align: center;
+	width: 290px;
+}
+
+.card:hover {
+	margin: 15px;
+	background-color: #FBF7EE;
+	border: solid 2px black;
+	text-align: center;
+}
+
+.card-img-top {
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
+}
+
+.card-text {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	line-height: 130%;
+}
+
+.btn-outline-dark {
+	margin: 5px;
+}
+
+.btn-tag {
+	margin: 5px;
+	background-color: #FBF7EE;
+	color: #733E3C;
+	font-weight: bold;
+	border: solid 1px black;
+}
+
+.btn-tag:active {
+	background-color: #733E3C;
+	color: #FBF7EE;
+}
+
+
+/* Collections Page Styling */
+.collcontainer {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 60px;
+	margin-right: 60px;
+	padding: 10px;
+	font-family: Helvetica;
+	background-color: #DAB8B7;
+	border: solid 2px black;
+}
+
+/* Post Recipe Page Styling */
+.postrecipecontainer {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 60px;
+	margin-right: 60px;
+	padding: 10px;
+	font-family: Helvetica;
+	background-color: #DAB8B7;
+	border: solid 2px black;
+}
+
+/* View Page Styling */
+.viewcontainer {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 60px;
+	margin-right: 10px;
+	padding: 10px;
+	font-family: Helvetica;
+	background-color: #FBF7EE;
+	border: solid 2px black;
+}
+
+.viewsection {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 60px;
+	margin-right: 60px;
+	padding: 10px;
+	font-family: Helvetica;
+	background-color: #FBF7EE;
+	border: solid 1px black;
+}
+
+.extraspacing {
+	line-height: 1.5em;
+}
+
+input:checked + label {
+	font-weight: bold;
+}
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-35 {width: 28.57%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-75 {width: 63.495%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones and tablets: */
+    [class*="col-"] {
+        width: 100%;
+	}
+	[class="card"] {
+		height: 500px;
+	}
+	[class="nav-link active"] {
+		width : 30%;
+		text-align : center;
+		margin-top : 10px;
+	}
+}
